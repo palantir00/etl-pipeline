@@ -1,0 +1,7 @@
+# Zależności potrzebne tylko do uruchamiania testów lokalnie.
+# Instalacja: pip install -r requirements-dev.txt
+
+pytest>=7.4.0          # framework testowy
+pytest-mock>=3.12.0    # łatwe mockowanie (zastępowanie funkcji w testach)
+requests-mock>=1.11.0  # mockowanie żądań HTTP
+pyspark>=3.4.0         # lokalny Spark bez Databricks (do testów transformacji)
